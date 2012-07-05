@@ -24,5 +24,7 @@
     <string name="choose_forward_lookup_provider_title">Choose forward lookup provider</string>
     <string name="choose_reverse_lookup_provider_title">Choose reverse lookup provider</string>
 
-
+ <!-- Noise suppression -->
+    <string name="noise_suppression_title">Noise suppression</string>
+    <string name="noise_suppression_summary">Enable noise suppression for calls</string>
 </resources>
