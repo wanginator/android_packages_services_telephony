@@ -68,6 +68,7 @@
       android:persistent="false" />
 
   <PreferenceScreen
+<<<<<<< HEAD
       android:key="button_voicemail_category_key"
       android:title="@string/voicemail"
       android:persistent="false">
@@ -119,6 +120,13 @@
       android:title="@string/dtmf_tone_enable_title"
       android:persistent="false"
       android:defaultValue="true" />
+
+  <CheckBoxPreference
+      android:key="bg_incall_screen"
+      android:title="@string/bg_incall"
+      android:persistent="false"
+      android:defaultValue="false"
+      android:summary="@string/bg_incall_summary"/>
 
   <PreferenceScreen
       android:key="button_respond_via_sms_key"
