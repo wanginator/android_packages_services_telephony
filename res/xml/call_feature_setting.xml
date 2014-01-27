@@ -68,7 +68,6 @@
       android:persistent="false" />
 
   <PreferenceScreen
-<<<<<<< HEAD
       android:key="button_voicemail_category_key"
       android:title="@string/voicemail"
       android:persistent="false">
