@@ -565,10 +565,6 @@ public class CallFeaturesSetting extends PreferenceActivity
             Settings.System.putInt(mPhone.getContext().getContentResolver(),
                     Settings.System.CALL_UI_IN_BACKGROUND,
                     (Boolean) objValue ? 1 : 0);
-        } else if (preference == mMwiNotification) {
-            int mwi_notification = mMwiNotification.isChecked() ? 1 : 0;
-            Settings.System.putInt(mPhone.getContext().getContentResolver(),
-                    Settings.System.ENABLE_MWI_NOTIFICATION, mwi_notification);
         } else if (preference == mVoicemailProviders) {
             final String newProviderKey = (String) objValue;
             if (DBG) {
