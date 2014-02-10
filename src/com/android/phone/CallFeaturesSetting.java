@@ -1874,7 +1874,6 @@ public class CallFeaturesSetting extends PreferenceActivity
         }
 
         lookupRingtoneName();
-        updateBlacklistSummary();
 
         restoreLookupProviderSwitches();
         restoreLookupProviders();
