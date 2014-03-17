@@ -159,6 +159,13 @@
       android:defaultValue="false"
       android:summary="@string/bg_incall_summary"/>
 
+ <CheckBoxPreference
+            android:key="button_smart_phone_call"
+            android:title="@string/smart_phone_call_title"
+            android:summary="@string/smart_phone_call_summary"
+            android:persistent="false"
+            android:defaultValue="false" />
+
   <PreferenceScreen
       android:key="button_respond_via_sms_key"
       android:title="@string/respond_via_sms_setting_title"

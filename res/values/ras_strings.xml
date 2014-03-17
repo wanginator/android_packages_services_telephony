@@ -14,7 +14,7 @@
     <string name="bg_incall">Incoming call in background</string>
     <string name="bg_incall_summary">Keep incoming call UI in background when screen is on, show notification and play ringtone only</string>
 
- <!-- Number lookup -->
+    <!-- Number lookup -->
     <string name="number_lookup">Phone number lookup</string>
     <string name="enable_forward_lookup_title">Enable forward lookup</string>
     <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
@@ -24,7 +24,12 @@
     <string name="choose_forward_lookup_provider_title">Choose forward lookup provider</string>
     <string name="choose_reverse_lookup_provider_title">Choose reverse lookup provider</string>
 
- <!-- Noise suppression -->
+    <!-- Noise suppression -->
     <string name="noise_suppression_title">Noise suppression</string>
     <string name="noise_suppression_summary">Enable noise suppression for calls</string>
+
+    <!-- Smart Phone Call -->
+    <string name="smart_phone_call_title">Smart phone call</string>
+    <string name="smart_phone_call_summary">Put on your ear, and this will automatically call current number in message or dialer</string>
+
 </resources>
